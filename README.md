@@ -21,22 +21,7 @@ git clone https://your-repo-url.git
 cd selenium_login_project
 ```
 
-### 2. Create a `.env` File
-
-Create a `.env` file in the project root directory with the following content:
-
-```plaintext
-EMAIL=your_email@example.com
-PASSWORD=your_password
-OTP_SECRET=your_otp_secret
-SMTP_SERVER=smtp.example.com
-SMTP_PORT=587
-FROM_EMAIL=your_email@example.com
-FROM_EMAIL_PASSWORD=your_email_password
-TO_EMAIL=recipient_email@example.com
-```
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Install the required Python dependencies:
 
@@ -44,7 +29,7 @@ Install the required Python dependencies:
 pip install -r requirements.txt
 ```
 
-### 4. Run the Script
+### 3. Run the Script
 
 Execute the script by running:
 
