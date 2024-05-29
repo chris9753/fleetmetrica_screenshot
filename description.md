@@ -54,13 +54,14 @@ The script uses the following environment variables to configure its behavior:
 
 1. **Running Locally**:
    - Ensure the required environment variables are set.
+   - Install dependencies using: `pip install -r requirements.txt`
    - Run the script using Python: `python login_script.py`.
 
 2. **Running in Docker**:
    - Build the Docker image: `docker build -t selenium-script:latest .`
    - Run the Docker container: `docker run -it selenium-script:latest`
 
-3. **Deploying to Kubernetes**:
+3. **Deploying to Kubernetes (locally) **:
    - Start Minikube: `minikube start`
    - Configure Docker CLI to use Minikube's Docker daemon: `eval $(minikube -p minikube docker-env)`
    - Build the Docker image: `docker build -t selenium-script:latest .`
